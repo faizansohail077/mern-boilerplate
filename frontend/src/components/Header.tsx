@@ -36,7 +36,7 @@ export default function Header({
 
     const getInitials = (name: string) => {
         return name
-            .split(" ")
+            ?.split(" ")
             .map((part) => part[0])
             .join("")
             .toUpperCase()
